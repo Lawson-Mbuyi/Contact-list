@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p id="p">Répertoire de contacts</p>
+  <div class="block_contact">
+  <div class="box_split">
+  <form method="POST" id="contact-form">
+  <p class="p">Formulaire de contact</p>
+  <p class="inputError"></p>
+
+  <label for="prenom">Prenom</label><br>
+  <input type="text" name="prenom" id="prenom" required="required"><br>
+  <label for="nom">Nom</label><br>
+  <input type="text" name="nom" id="nom" required="required"><br>
+  <label for="group">Groupe</label>
+  <select id="choix" required="required">
+    <option selected></option>
+    <option > Apprenant</option>
+    <option >Instructeur</option>
+    <option >Cofondateur</option>
+  </select><br>
+  <label for="bio">Bio</label><br>
+  <textarea id="bio" cols="50" required="required"></textarea>
+  <input type="file"name="userFile" id="userFile"required="required" >
+    <div id="imageContainer" id="imageContainer">
+        <img src="" class="imageView">
+    </div><br><br>
+  <button type="submit" class="create">Créer</button>
+  <button type="reset" class="reset">Réinite</button>
+</form>
+<div>
+
+<div class="list_contacts">
+  <p class="p">Formulaire de contact</p>
+
+  
+</div>
+</div>
+      
+</div>
+</div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

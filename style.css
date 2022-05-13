@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .block_contact{
+    width: 900px;
+    margin: auto;
+    padding: 15px;
+  }
+  .box_split{
+    display: flex;
+    justify-content:space-around;
+
+  }
+  #contact-form{
+    position: relative;
+    width: 450px;
+    border: 1px solid gray;
+    background-color: beige; 
+  }
+  #contact-form input{
+    border: 0;
+    width: 400px;
+    margin: 4px;
+    padding: 15px;
+  }
+  #contact-form label{
+    font-size: 22px;
+    margin: 4px;
+    color: rgb(58, 58, 228);
+  }
+  #contact-form textarea{
+    margin: 4px;
+    border: 0;
+    padding: 15px;
+  }
+  .create{
+    width: 120px;
+    font-size: larger;
+    font-weight: bold;
+    color: beige;
+    background-color: blue;
+    padding: 15px;
+    margin:10px;
+  }
+  .reset{
+    width: 120px;
+    font-size: larger;
+    font-weight: bold;
+    color: beige;
+    background-color: rgba(255, 0, 0, 0.74);
+    padding: 15px;
+    margin:10px;
+
+  }
+  .imageView{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 70%;
+    right: 5px;
+    padding: 5px;
+
+    }
+
+  #p{
+    width:600px;
+    margin:auto;
+    color:white;
+    font-weight:bold;
+    background-color:#4169E1;
+    background-size: cover;
+    padding:15px;
+  }
+  .p{
+    margin-top: -1px; 
+    color:white;
+    font-weight:bold;
+    background-color:#4169E1;
+    padding:8px; 
+  }
+  .profil{
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+  }
+  .list_contacts{
+    position: relative;
+      width: 400px;
+      height: auto;
+      border: 1px solid grey;
+      margin-top: -1px;
+      background-color: gainsboro;
+  }
+  .close{
+    display: block;
+    float: inline-end;
+    margin-top: 15px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.842);
+  }
+  .modal{
+    cursor: pointer;
+  }
+  .inputError{
+    color: red;
+    font-size: 14px;
+    padding: 4px;
+    display: none;
+  }
+  
