@@ -92,20 +92,23 @@ html, body {
       height: auto;
       border: 1px solid grey;
       margin-top: -1px;
-      background-color: gainsboro;
   }
   .close{
-    display: block;
-    float: inline-end;
-    margin-top: 15px;
     font-size: 42px;
     transform: rotate(45deg);
     cursor: pointer;
     color: rgba(255, 0, 0, 0.842);
+    float:right;
   }
-  .modal{
+  .modal {
     cursor: pointer;
+    font-size:10px;
+    
   }
+.modal label{
+  text-indent:2px;
+  margin:4px;
+}
   .inputError{
     color: red;
     font-size: 14px;
